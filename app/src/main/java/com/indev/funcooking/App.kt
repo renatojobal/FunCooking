@@ -1,8 +1,8 @@
 package com.indev.funcooking
 
 import android.app.Application
+
 import android.content.Context
-import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.indev.funcooking.repository.SharedPrefHelper
 import com.indev.funcooking.timber.DebugTree
 import com.indev.funcooking.timber.ReleaseTree
@@ -38,12 +38,12 @@ class App : Application() {
         if (BuildConfig.DEBUG) {
             Timber.plant(DebugTree())
             // Set a key to an int.
-            FirebaseCrashlytics.getInstance().setCustomKey("Build config", "DEBUG")
+         //   FirebaseCrashlytics.getInstance().setCustomKey("Build config", "DEBUG")
             Timber.i("Timber set up in DEBUG level")
         } else {
             Timber.plant(ReleaseTree())
             // Set a key to an int.
-            FirebaseCrashlytics.getInstance().setCustomKey("Build config", "RELEASE")
+       //     FirebaseCrashlytics.getInstance().setCustomKey("Build config", "RELEASE")
         }
     }
 

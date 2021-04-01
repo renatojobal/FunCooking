@@ -1,7 +1,7 @@
 package com.indev.funcooking.timber
 
 import android.util.Log
-import com.google.firebase.crashlytics.FirebaseCrashlytics
+
 import timber.log.Timber
 
 /**
@@ -43,7 +43,7 @@ class ReleaseTree : Timber.Tree() {
 
             // Report caught exception to your crash library
             if (isLoggableOnCrashlytics(priority)) {
-                FirebaseCrashlytics.getInstance().log(tag + message + t?.message)
+         //       FirebaseCrashlytics.getInstance().log(tag + message + t?.message)
             }
 
 
