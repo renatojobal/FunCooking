@@ -1,16 +1,44 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Top level theme. -->
+    <style name="Theme.FunCooking.DayNight" parent="Theme.FunCooking.Light" />
+
     <!-- Base application theme. -->
-    <style name="Theme.FunCooking" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.FunCooking.Light" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
         <item name="colorOnPrimary">@color/white</item>
+
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_700</item>
         <item name="colorOnSecondary">@color/black</item>
+
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <!-- Customize your theme here. -->
+
+
+        <!--Typography-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.FunCooking.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.FunCooking.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.FunCooking.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.FunCooking.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.FunCooking.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.FunCooking.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.FunCooking.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.FunCooking.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.FunCooking.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.FunCooking.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.FunCooking.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.FunCooking.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.FunCooking.Overline</item>
+
+
+        <item name="android:textViewStyle">@style/Widget.FunCooking.TextView</item>
+
     </style>
+
+
 </resources>

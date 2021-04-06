@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Typography-->
+    <style name="TextAppearance.FunCooking.Headline1" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/nunito_sans</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Headline2" parent="TextAppearance.MaterialComponents.Headline2">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/nunito_sans</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Headline3" parent="TextAppearance.MaterialComponents.Headline3">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/nunito_sans_semibold</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Headline4" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Headline5" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/comfortaa</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Headline6" parent="TextAppearance.MaterialComponents.Headline6">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/comfortaa_bold</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Body1" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Body2" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/nunito_sans</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/nunito_sans_semibold</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Button" parent="TextAppearance.MaterialComponents.Button">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Caption" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+    <style name="TextAppearance.FunCooking.Overline" parent="TextAppearance.MaterialComponents.Overline">
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="fontFamily">@font/montserrat</item>
+    </style>
+
+</resources>
