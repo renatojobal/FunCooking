@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".mainactivity.flogin.LoginFragment">
+    tools:context=".mainactivity.fauth.flogin.LoginFragment">
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -84,7 +84,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/fl_tv_forgot_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="¿Olvidaste tu contraseña?"
@@ -92,20 +92,20 @@
             app:layout_constraintTop_toBottomOf="@+id/textField2" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/fl_btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Register"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+            app:layout_constraintTop_toBottomOf="@+id/fl_tv_forgot_password" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/fl_brn_login"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Sign in"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/button" />
+            app:layout_constraintTop_toTopOf="@+id/fl_btn_register" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

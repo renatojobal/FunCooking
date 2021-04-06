@@ -1,4 +1,4 @@
-package com.indev.funcooking.mainactivity.flogin
+package com.indev.funcooking.mainactivity.fauth.fregister
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -8,30 +8,32 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.indev.funcooking.R
-import com.indev.funcooking.databinding.FragmentLoginBinding
+import com.indev.funcooking.databinding.FragmentRegisterBinding
 
 
 /**
- * Login fragment.
+ * A simple [Fragment] subclass.
  */
-class LoginFragment : Fragment() {
+class RegisterFragment : Fragment() {
 
     // Data binding
-    private lateinit var binding : FragmentLoginBinding
+    private lateinit var binding : FragmentRegisterBinding
 
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        // Inflate the layout with data binding
+        // Inflate with data binding
         binding = DataBindingUtil.inflate(
             inflater,
-            R.layout.fragment_login,
+            R.layout.fragment_register,
             container,
             false
         )
 
+
+        // View model
 
 
         // Bind data
@@ -44,10 +46,18 @@ class LoginFragment : Fragment() {
         return binding.root
     }
 
+    /**
+     * Main function to set up all the functionality of this fragment
+     */
     private fun setUpFunctionality() {
 
 
+
+
     }
+
+
+
 
 
 }
